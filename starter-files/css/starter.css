@@ -1,0 +1,363 @@
+/* Starter CSS */
+
+* {
+    box-sizing: border-box; /* because it’s 2019, jen simmons */
+    padding: 0;
+    margin: 0;
+}
+html {
+    color: #222;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    background-image: url(/img/diane-essentials-bg-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0em;
+    margin: 0em;
+
+    }
+    
+img {
+display: block;
+width: 100%;
+}
+
+div.indexlanding{
+    width: 100%;
+    padding: 0em;
+    margin: 0em 0em 2em 0em;
+    text-align: center;
+
+}
+    
+nav ul{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    padding: 0em;
+    color: #000000;
+    
+    }
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+ 
+    
+nav li{
+    margin: 1em;
+    display: inline;
+}   
+
+a:hover{
+    color: #d39780;
+}
+li:active{
+    text-decoration-color: #375E59;
+    color: #375E59;
+}
+h1{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0em 0em 0em 0em;
+    padding:1.5em 0em 0.35em 0em;
+    text-align: center;
+    text-decoration: none;
+    color: #d39780;
+}
+
+
+footer{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
+    letter-spacing: 0.03em;
+    text-align: center;
+    clear: both;
+    position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  padding: 1em 1em 2em 1em;
+
+}
+
+div.indexcontent{
+    width: 100%;
+    padding: 0em;
+    margin: 5em 0em 2em 0em;
+    text-align: center;
+}
+
+.indexcontent p{
+    font-size: 1em;
+    font-weight: 300;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+}
+
+#mainpage{
+    width: 100%;
+}
+
+.indexfiller{
+    margin: 15em;
+}
+.indexcards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .indexcard {
+    background-color: rgba(255, 255, 255, 0.068);
+    display: flex;
+    flex-direction: column;
+    margin: 5em;
+    min-width: 250px;
+    max-width: 350px;
+    border-radius: 1em;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    position: relative;
+    top: 0;
+  }
+  .indexcard:hover {
+    transition: all 0.02s ease-in;
+    top: -2px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  
+  .indexcardarticle {
+    padding: 2.5rem;
+    flex-grow: 1;
+  }
+  
+  .indexcard h2{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  .indexcard p{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 0.80em;
+    padding: 1em 0em 0em 0em;
+  }
+
+
+  .tunecards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em 5em 5em 5em;
+    
+  }
+  
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .tunecard {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    width: 300px;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+    position: relative;
+    top: 0;
+    padding: 0.75em 0.75em 0.75em 0.75em;
+    align-items: flex-end;
+
+  }
+  .tunecard:hover {
+    transition: all 0.1s ease-in;
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tunecardphoto {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+  }
+  
+  .tunecardarticle {
+    padding: 0.5rem;
+    flex-grow: 1;
+    width: 180px;
+  }
+
+  .tunecard h2{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .tunecard p{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 0.80em;
+    padding: 0em 0em 0em 0em;
+    margin-bottom: 0em;
+    margin-left: 0.75em;
+  }
+
+  .tunedescription {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5em;
+  }
+
+  .tunedescriptioncard{
+    background-color: #ffffff6c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    width: 70%;
+    border-radius: 0.5em;
+    justify-content: center;
+    position: relative;
+    align-items: flex-end;
+    padding: 1em 1em 1em 1em;
+  }
+
+.tunedescriptioncard p{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+}
+  
+.photocards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em 5em 2em 5em;
+    align-items: center;
+  }
+  
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .photocard {
+    background-color: rgba(255, 255, 255, 0.116);
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    width: 300px;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    padding: 0.75em 0.75em 0.75em 0.75em;
+    align-items: center;
+
+  }
+  .photocard:hover {
+    transition: all 0.1s ease-in;
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photophoto {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: flex-start;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    image-orientation: from-image;
+  }
+
+
+  .photophoto img{
+    object-fit: cover;
+    width: 100%;
+    flex-grow: 0;
+  }
+
+  .recipecards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5em 5em 5em 5em;
+    
+  }
+  
+  /* make the card flex. The default is row so change flex direction to vertical. */
+  .recipecard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+    width: 700px;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+    position: relative;
+    top: 0;
+    padding: 2em 2em 2em 2em;
+    align-items: flex-start;
+
+  }
+  .recipecard:hover {
+    transition: all 0.1s ease-in;
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipecardphoto {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    margin-bottom: 1em;
+    image-orientation: from-image;
+  }
+  
+  .recipecardarticle {
+    padding: 0.5rem;
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .recipecard h2{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+  }
+
+  .recipecard p{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    padding: 0em 0em 0em 0em;
+  }
