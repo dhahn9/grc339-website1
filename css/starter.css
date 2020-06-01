@@ -375,8 +375,8 @@ div.indexcontent{
 .title h1{
      font-family: proxima-nova, sans-serif;
     font-weight: 600;
-    font-size: 3em;
-    margin-bottom: 0.4em;
+    font-size: 5em;
+    padding: 0em 0em 0em 0em;
 }
 
 .content p{
